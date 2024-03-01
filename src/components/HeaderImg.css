@@ -1,0 +1,40 @@
+.Card {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2rem;
+  }
+
+button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 50%);
+    border: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+button:hover{
+    background-color: rgba(255, 255, 255, 80%);
+    cursor: pointer;
+}
+
+@keyframes fadeInOut {
+    0% {opacity: 0;}
+    10% {opacity: 1;}
+    90% {opacity: 1;}
+    100% {opacity: 0;}
+  }
+  
+  .slide {
+    animation-name: fadeInOut;
+    animation-timing-function: ease-in-out;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: relative;
+    border-radius: 28px;
+  }
+  

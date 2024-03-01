@@ -1,0 +1,44 @@
+.CardsInfo{
+    width: 519px;
+    height: 386px;
+    background-color: #161616;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: start;
+    align-items: start;
+    margin: 0 20px;
+    border-radius: 28px;
+    padding: 50px;
+    flex-wrap: wrap;
+    transition: 0.5s ease-in-out;
+}
+
+.CardsInfo:hover{
+    scale: 1.05;
+    cursor: pointer;
+}
+
+.imgcard1:hover{
+  background-size: 270%;
+  cursor: pointer;
+}
+
+
+.CardsInfo img{
+    width: 20%;
+}
+
+.SecaoTwo{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+h3{
+    margin-top: 1rem;
+    color: #fff;
+    font-size: 30px;
+}

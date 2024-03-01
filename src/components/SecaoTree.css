@@ -1,0 +1,83 @@
+h2{
+    font-size: 30px;
+    color: #fff;
+    margin:  4rem 7rem 2rem;
+}
+
+
+.ButtonDireitaSecaoTree{
+    position: absolute;
+    right: 30px; /* Posiciona o botão 10px da borda direita */
+    top: 240%; /* Centraliza o botão verticalmente */
+    transform: translateY(-50%); /* Ajusta a posição vertical para centralizar o botão */
+    width: 60px;
+    height: 60px;
+  }
+  
+  .ButtonEsquerdaSecaoTree{
+    position: absolute;
+    left: 30px; /* Posiciona o botão 10px da borda esquerda */
+    top: 240%; /* Centraliza o botão verticalmente */
+    transform: translateY(-50%); /* Ajusta a posição vertical para centralizar o botão */
+    width: 60px;
+    height: 60px;
+  }
+
+  .Xr{
+    background-image: url(../img/IphoneXr.jpg);
+  }
+
+  .EigthpLUS{
+    background-image: url(../img/Iphone8Plus.jpg);
+  }
+
+  .Eleven{
+    background-image: url(../img/Iphone11.jpg);
+  }
+
+  .ElevenPro{
+    background-image: url(../img/Iphone11ProMax.jpg);
+  }
+  .Twelve{
+    background-image: url(../img/Iphone12.jpg);
+  }
+  .TwelvePro{
+    background-image: url(../img/Iphone12ProMax.jpg);
+  }
+  .Thirteenmini{
+    background-image: url(../img/Iphone13mini.jpg);
+  }
+  .ThirteenPro{
+    background-image: url(../img/Iphone13Promax.jpg);
+  }
+
+  .Xr,
+  .EigthpLUS,
+  .Eleven,
+  .ElevenPro,
+  .Twelve,
+  .TwelvePro,
+  .Thirteen,
+  .ThirteenPro,
+  .Thirteenmini,
+  .ThirteenPro{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: background-size 0.5s ease-in-out;
+    background-size: 200%;
+  }
+
+  .Xr:hover,
+  .EigthpLUS:hover,
+  .Eleven:hover,
+  .ElevenPro:hover,
+  .Twelve:hover,
+  .TwelvePro:hover,
+  .Thirteen:hover,
+  .ThirteenPro:hover,
+  .Thirteenmini:hover,
+  .ThirteenPro:hover{
+    background-size: 250%;
+    cursor: pointer;
+  }

@@ -1,0 +1,22 @@
+.Container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.Container img{
+    width: 85%;
+}
+
+.QuadroInterno{
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 0;
+}
+
+.Cont{
+    margin-bottom: 2rem;
+}
