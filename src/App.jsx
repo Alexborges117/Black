@@ -17,6 +17,7 @@ function App() {
         <SecaoOne />
         <SecaoTwo />
         <SecaoTree />
+        <SecaoFour />
         <Footer />
       </div>
     </>

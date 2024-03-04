@@ -124,3 +124,56 @@
     width: 60px;
     height: 60px;
   }
+
+  .Popup {
+    position: fixed; /* Fixa o popup no viewport */
+    top: 50%; /* Posiciona o popup no centro verticalmente */
+    left: 50%; /* Posiciona o popup no centro horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta a posição para centralizar o popup */
+    width: 400px; /* Define a largura do popup */
+    height: 200px; /* Define a altura do popup */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-direction: column;
+    z-index: 1000;
+    background-color: rgb(48, 47, 47); /* Define a cor de fundo do popup */
+    border-radius: 5%; /* Arredonda os cantos do popup */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25); /* Adiciona uma sombra ao popup */;
+  }
+
+  .Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .buttonPopup{
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    transition: .5s ease-in-out;
+  }
+
+  .buttonPopup:hover{
+    background-color: rgb(255, 177, 177);
+    transition: .5s ease-in-out;
+  }
+
+  .Popup img{
+    width: 15%;
+  }
+
+  .Popup h4{
+    color: #ffffff;
+    font-size: 25px;
+  }

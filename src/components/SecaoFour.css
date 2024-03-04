@@ -11,12 +11,22 @@
     width: 85%;
 }
 
-.QuadroInterno{
-    display: flex;
-    flex-direction: column;
-    margin: 3rem 0;
-}
 
 .Cont{
     margin-bottom: 2rem;
+}
+
+.cont{
+    flex-direction: row;
+    display: flex;
+}
+
+.Quadro{
+    scale: .9;
+    transition: .4s ease-out;
+}
+.Quadro:hover{
+    scale: 1.05;
+    transition: .3s ease-in;
+    cursor: pointer;
 }
