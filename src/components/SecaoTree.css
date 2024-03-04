@@ -81,3 +81,86 @@ h2{
     background-size: 250%;
     cursor: pointer;
   }
+
+  @media  (max-width: 1488px){
+    .ButtonDireitaSecaoTree{
+      top: 260%;
+    }
+
+    .ButtonEsquerdaSecaoTree{
+      top: 260%;
+    }
+  }
+  @media  (max-width: 900px){
+    .ButtonDireitaSecaoTree{
+      top: 350%;
+    }
+
+    .ButtonEsquerdaSecaoTree{
+      top: 350%;
+    }
+  }
+  @media  (max-width: 700px){
+    .ButtonDireitaSecaoTree{
+      top: 340%;
+    }
+
+    .ButtonEsquerdaSecaoTree{
+      top: 340%;
+    }
+  }
+  @media  (max-width: 600px){
+    .ButtonDireitaSecaoTree{
+      top: 330%;
+    }
+
+    .ButtonEsquerdaSecaoTree{
+      top: 330%;
+    }
+  }
+
+  @media  (max-width: 520px){
+    .ButtonDireitaSecaoTree{
+      position: absolute;
+      right: 30px; /* Posiciona o botão 10px da borda direita */
+      top: 330%; /* Centraliza o botão verticalmente */
+      transform: translateY(-50%); /* Ajusta a posição vertical para centralizar o botão */
+      width: 60px;
+      height: 60px;
+      display: block;
+    }
+
+    .ButtonEsquerdaSecaoTree{
+      position: absolute;
+      left: 30px; /* Posiciona o botão 10px da borda esquerda */
+      top: 330%; /* Centraliza o botão verticalmente */
+      transform: translateY(-50%); /* Ajusta a posição vertical para centralizar o botão */
+      width: 60px;
+      height: 60px;
+      display: block;
+    }
+
+    .Nov h2{
+      display: flex;
+      text-align: center;
+      align-items: start;
+      justify-content: center;
+      margin: 2rem;
+      flex-wrap: wrap;
+  }
+}
+
+@media  (max-width: 320px){
+  .ButtonEsquerdaSecaoTree{
+    top: 320%;
+    width: 35px;
+    height: 35px;
+  }
+
+  .ButtonDireitaSecaoTree{
+    top: 320%;
+    width: 35px;
+    height: 35px;
+  }
+}
+  

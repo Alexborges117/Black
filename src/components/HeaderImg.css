@@ -37,4 +37,21 @@ button:hover{
     position: relative;
     border-radius: 28px;
   }
+
+  @media  (max-width: 900px){
+    .ImgSlide img{
+      width: 100%;
+    }
+
+  }
+
+  @media  (max-width: 520px){
+    .ImgSlide img{
+      width: 100%;
+    }
+
+    button{
+      display: none;
+    }
+  }
   

@@ -36,7 +36,7 @@ const SecaoTree = () => {
   };
 
   return (
-    <div>
+    <div className='Nov'>
       {!isAtStart && <button className='ButtonEsquerdaSecaoTree' onClick={() => scrollCards('left')}><img src={SetaEsquerda} alt="Seta para a esquerda" /></button>}
       <h2><span  style={{ textTransform: 'uppercase' }}>produtos:</span>semi novos</h2>
       <div className="Cards" ref={cardsRef}>

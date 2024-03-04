@@ -30,3 +30,35 @@
     transition: .3s ease-in;
     cursor: pointer;
 }
+
+@media  (max-width: 900px){
+    .Container{
+        flex-direction: column;
+    }
+
+    .Cont h2{
+        display: flex;
+        text-align: start;
+        align-items: start;
+        justify-content: start;
+    }
+
+}
+
+@media  (max-width: 520px){
+    .Container{
+        flex-direction: column;
+    }
+
+    .cont{
+        width: 80%;
+    }
+
+    .Cont h2{
+        display: flex;
+        text-align: start;
+        align-items: start;
+        justify-content: start;
+        margin: 2rem;
+    }
+}

@@ -42,3 +42,28 @@ h3{
     color: #fff;
     font-size: 30px;
 }
+
+@media  (max-width: 900px){
+    .SecaoTwo{
+        flex-direction: column;
+
+    }
+
+    .CardsInfo{
+        width: 90%;
+        margin-bottom: 2rem;
+    }
+
+}
+
+@media  (max-width: 520px){
+    .SecaoTwo{
+        flex-direction: column;
+
+    }
+
+    .CardsInfo{
+        width: 90%;
+        margin-bottom: 2rem;
+    }
+}

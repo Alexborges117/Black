@@ -177,3 +177,57 @@
     color: #ffffff;
     font-size: 25px;
   }
+
+  @media  (max-width: 900px){
+    .Card{
+      width: auto;
+    }
+  }
+
+  @media  (max-width: 520px){
+    .Card{
+      width: 100%;
+    }
+
+    .ButtonDireita{
+      position: absolute;
+      right: 30px; /* Posiciona o botão 10px da borda direita */
+      top: 50%; /* Centraliza o botão verticalmente */
+      transform: translateY(-50%); /* Ajusta a posição vertical para centralizar o botão */
+      width: 60px;
+      height: 60px;
+      display: block;
+    }
+    
+    .ButtonEsquerda{
+      position: absolute;
+      left: 30px; /* Posiciona o botão 10px da borda esquerda */
+      top: 50%; /* Centraliza o botão verticalmente */
+      transform: translateY(-50%); /* Ajusta a posição vertical para centralizar o botão */
+      width: 60px;
+      height: 60px;
+      display: block;
+    }
+  
+    .Popup{
+      height: 300px;
+    }
+
+    .buttonPopup{
+      display: block;
+    }
+  }
+  
+  @media  (max-width: 320px){
+    .ButtonEsquerda{
+      top: 55%;
+      width: 35px;
+      height: 35px;
+    }
+  
+    .ButtonDireita{
+      top: 55%;
+      width: 35px;
+      height: 35px;
+    }
+  }
